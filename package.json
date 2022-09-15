@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "lightbox2": "^2.11.3",
+    "scrollreveal": "^4.0.9"
+  }
+}

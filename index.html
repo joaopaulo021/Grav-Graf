@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grav Graf</title>
+    <link rel="icon" type="image/x-icon" href="./img/icons/logo 1 recortado.png" />
+    <link rel="stylesheet" type="text/css" href="./css/fonts-icones.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/menu mobile.css" />
+    <link href="./node_modules/lightbox2/dist/css/lightbox.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="models">
+
+
+
+        <div class="product">
+
+            <div class="img-container">
+                <a href="" data-lightbox="image-1"><img src="" alt=""></a>
+            </div>
+
+            <h4></h4>
+
+            <p></p>
+        </div>
+    </div>
+
+    <header class="header-container">
+        <nav class="nav-bar">
+            <div class="header-logo">
+                <a href="index.html"> <img src="./img/icons/logo 1 recortado.png" alt=""></a>
+            </div>
+            <div class="search-container">
+                <img src="./img/icons/search.png"><input type="search" id="search-input" placeholder="Digite oque você procura!">
+            </div>
+
+            <nav class="menu-hamb">
+                <i id="menu-open" class="icon-bars"></i>
+                <i id="menu-close" class="icon icon-times"></i>
+
+                <div class="dropDown">
+
+
+                    <div onclick="filterProduct('Todos')" class="sub-todos">
+                        <a href="#product-text">Todos os Produtos</a>
+                    </div>
+
+                    <div onclick="filterProduct('Etiquetas-Patrimoniais')" class="sub-patrimoniais">
+                        <a href="#product-text">Etiquetas Patrimoniais</a>
+                    </div>
+
+                    <div onclick="filterProduct('Placas-comemorativas')" class="sub-comemorativas">
+                        <a href="#product-text">Placas comemorativas</a>
+                    </div>
+                    <div onclick="filterProduct('Placas-Sinalizacao')" class="sub-sinalizacao">
+                        <a href="#product-text">Placas Sinalização</a>
+                    </div>
+
+                    <div onclick="filterProduct('Placas-industria')" class="sub-industria">
+                        <a href="#product-text">Placas industria</a>
+                    </div>
+                    <div onclick="filterProduct('Linha-Transmissao')" class="sub-transmissao">
+                        <a href="#product-text">Linha de Transmissão</a>
+                    </div>
+                    <div class="btn-contato" hidden>
+                        <a href="#footer-container">Contato</a>
+                    </div>
+                    <a href="#about-us">Quem somos</a>
+                    <a href="https://wa.me/5514997894800">Orçamento</a>
+                    <a href="#contato">Contato</a>
+
+
+                </div>
+
+                </div>
+            </nav>
+            <nav class="nav-btns">
+                <div class="products-menu">
+
+                    <div class="btn-products">
+                        <a href="#product-text">Produtos</a>
+                    </div>
+
+                    <div class="sub-section hide">
+                        <div onclick="filterProduct('Todos')" class="sub-todos">
+                            <a href="#product-text">Todos</a>
+                        </div>
+
+                        <div onclick="filterProduct('Etiquetas-Patrimoniais')" class="sub-patrimoniais">
+                            <a href="#product-text">Etiquetas Patrimoniais</a>
+                        </div>
+
+                        <div onclick="filterProduct('Placas-comemorativas')" class="sub-comemorativas">
+                            <a href="#product-text">Placas comemorativas</a>
+                        </div>
+                        <div onclick="filterProduct('Placas-Sinalizacao')" class="sub-sinalizacao">
+                            <a href="#product-text">Placas Sinalização</a>
+                        </div>
+
+                        <div onclick="filterProduct('Placas-industria')" class="sub-industria">
+                            <a href="#product-text">Placas industria</a>
+                        </div>
+                        <div onclick="filterProduct('Linha-Transmissao')" class="sub-transmissao">
+                            <a href="#product-text">Linha de Transmissão</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <a href="#about-us">Sobre Nós</a>
+                <a href="https://wa.me/5514997894800">Orçamento</a>
+                <a href="#contato">Contato</a>
+
+            </nav>
+        </nav>
+    </header>
+
+    <main id="main-container">
+        <div class="main-img">
+            <img>
+
+            <div class="main-content ">
+                <h1>GRAV GRAF</h1><br><br>
+                <p>Sinalizações para diversos segmentos !</p>
+                <a href="#about-us"><button>Saiba Mais</button></a>
+            </div>
+        </div>
+
+
+        <div id="about-us">
+            <h1>Seja bem vindo a Grav Graf !</h1>
+            <h3>Sobre Nós</h3>
+            <p> A GravGraf sinalizações é uma empresa voltada para o segmento de sinalização.<br> Trabalhando com diversos tipos de materiais metálicos e não metálicos. Tais como Alumínio, Aço inox, Latão, Bronze, Acrílico, PVC, adesivos e Banners.<br> Atendemos
+                diversos segmentos entre os quais se destaca os setores industrial e energético<br> </p>
+
+            <div class="about-icons-container">
+                <div class="about-icon reveal">
+                    <img src="./img/icons/comunicacao visual (2).png" alt="">
+                    <h3>Comunicação Visual</h3>
+                    <p>Diversas soluções para fachadas comerciais, letra caixa e letreiros, totens, displays, banners, entre outros. Produtos em altíssima qualidade, com impressão e corte digital, e equipe especializada para atender sua necessidade</p>
+                </div>
+
+                <div class="about-icon reveal">
+                    <img src="./img/icons/sinalizacao industrial.png" alt="">
+                    <h3>Sinalização Industrial</h3>
+                    <p>Linha de placas metálicas para painel de máquinas, como placa para painel de controle, painel de comando, placas para painel frontal entre outros, podendo conter especificações técnicas, ou qualquer outro dado fixo ou variável.</p>
+                </div>
+
+
+                <div class="about-icon reveal">
+                    <img src="./img/icons/sinalizacao personalizada.png" alt="">
+                    <h3>Sinalização personalizada</h3>
+                    <p>Soluções para sinalização ambientes internos e externos, painéis de informações, placas indicativas, placas de orientação, placas direcionais para facilitar circulação, placas para identificação de marcas e empresas </p>
+                </div>
+            </div>
+        </div>
+        <div id="product-text"></div>
+
+        <h1 class="product-text">Confira Nossos Produtos </h1>
+
+        <div id="products">
+
+
+        </div>
+
+    </main>
+
+
+    <div class="references-container">
+        <div id="references">
+            <div class="reference-item reveal">
+                <img src="./img/icons/clientes satisfeitos.png" alt="">
+                <p>Mais de </p>
+                <span class="num" data-val="+2000">0.000</span>
+                <p>clientes satisfeitos !</p>
+            </div>
+            <div class="reference-item reveal">
+                <img src="./img/icons/empresas atendidas.png" alt="">
+                <p>Mais de </p>
+                <span class="num" data-val="250">+000</span>
+                <p>Empresas Atendidas !</p>
+            </div>
+            <div class="reference-item reveal">
+
+                <img src="./img/icons/anos mercado.png" alt="">
+                <p>Mais de </p>
+                <span class="num" data-val="17">00</span>
+                <p>Anos no Mercado !</p>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer-container">
+        <div class="about">
+            <h4>Sobre nós</h4>
+            <p>A GravGraf sinalizações é uma empresa voltada para o segmento de sinalizações.<br> Trabalhando com diversos tipos de materiais metalicos e não metalicos.<br>Tais como Aluminio, Aço inox, Latão, Bronze, Acrilico, PVC, adesivos e Banners.<br>                Atendemos diveros segmentos entre os quais se destaca os setores industrial e energetico </p>
+        </div>
+
+        <div class="links">
+            <a href="#product-text">Produtos</a>
+            <a href="#about-us">Quem somos</a>
+            <a href="https://wa.me/5514997894800">Orçamento</a>
+            <a href="#contato">Contato</a>
+        </div>
+
+        <div class="contact">
+            <div class="contact-container">
+                <img src="./img/icons/home.png" alt="">
+                <p>Duque De Caxias 7-88 Bauru-SP</p>
+            </div>
+            <div class="contact-container">
+                <img src="./img/icons/cel.png" alt="">
+                <p id="contato"> (14) 99789-4800</p>
+            </div>
+            <div class="contact-container">
+                <img src="./img/icons/email.png" alt="">
+                <p>gama@travelnet.com</p>
+            </div>
+
+
+        </div>
+
+
+
+    </footer>
+
+    <div class="img-whats">
+        <a href="https://wa.me/5514997894800"><img src="./img/icons/whats.png" alt=""></a>
+    </div>
+
+    <div class="copyright">
+        <p>© todos os direitos reservados Desenvolvido por </p>
+        <a href="https://wa.me/5514996842832"> JP Web</a>
+    </div>
+
+</body>
+
+<script src="./javascript/script.js"></script>
+<script src="./produtos.js"></script>
+<script src="./javascript/main.js"></script>
+<script src="./javascript/botao navbar.js"></script>
+<script src="./javascript/number counting.js"></script>
+<script src="./javascript/menu mobile.js"></script>
+<script src="./javascript/botao search.js"></script>
+<script src="./node_modules/lightbox2/dist/js/lightbox.js"></script>
+<script src="./node_modules/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
+
+
+</html>
