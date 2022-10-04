@@ -23,11 +23,4 @@ produtos.map((item, index) => {
 
 
 
-
-
-
-
-
-
-
 })

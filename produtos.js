@@ -112,14 +112,14 @@ let produtos = [
         id: 15,
         name: 'Plaquetas p/ Industria',
         tipo: 'Placas-industria',
-        img: 'img/placas industria/industria (4).png',
+        img: 'img/placas industria/industria (4).jpg',
         description: 'Plaquetas p/ Industria'
     },
     {
         id: 16,
         name: 'Plaquetas p/ Industria',
         tipo: 'Placas-industria',
-        img: 'img/placas industria/industria (5).png',
+        img: 'img/placas industria/industria (5).jpg',
         description: 'Plaquetas p/ Industria'
     },
 
@@ -150,35 +150,35 @@ let produtos = [
         id: 20,
         name: 'Placa De Sinalização',
         tipo: 'Placas-Sinalizacao',
-        img: 'img/placas sinalizacao/sinalizacao (4).png',
+        img: 'img/placas sinalizacao/sinalizacao (4).jpg',
         description: 'Placa de Sinalização'
     },
     {
         id: 21,
         name: 'Placa De Sinalização',
         tipo: 'Placas-Sinalizacao',
-        img: 'img/placas sinalizacao/sinalizacao (5).png',
+        img: 'img/placas sinalizacao/sinalizacao (5).jpg',
         description: 'Placa de Sinalização'
     },
     {
         id: 22,
         name: 'Placa De Sinalização',
         tipo: 'Placas-Sinalizacao',
-        img: 'img/placas sinalizacao/sinalizacao (6).png',
+        img: 'img/placas sinalizacao/sinalizacao (6).jpg',
         description: 'Placa de Sinalização'
     },
     {
         id: 23,
         name: 'Placa De Sinalização',
         tipo: 'Placas-Sinalizacao',
-        img: 'img/placas sinalizacao/sinalizacao (7).png',
+        img: 'img/placas sinalizacao/sinalizacao (7).jpg',
         description: 'Placa de Sinalização'
     },
     {
         id: 24,
         name: 'Placa De Sinalização',
         tipo: 'Placas-Sinalizacao',
-        img: 'img/placas sinalizacao/sinalizacao (8).png',
+        img: 'img/placas sinalizacao/sinalizacao (8).jpg',
         description: 'Placa de Sinalização'
     },
     {
