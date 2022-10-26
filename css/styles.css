@@ -102,8 +102,9 @@ input:focus {
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     opacity: 0.9;
-    width: 100px;
+    width: 110px;
     display: flex;
+    justify-content: center;
     font-size: 1.4rem;
     margin-right: 25px;
     cursor: pointer;
@@ -212,42 +213,33 @@ input:focus {
     position: absolute;
 }
 
-.main-img h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
-    max-width: 450px;
-    opacity: 1;
-    animation: digitacao 500ms steps(30) infinite normal, digitando 4s steps(50) 1s normal both;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    font-weight: bold;
-    background-color: #333;
-    font-size: 3rem;
-    white-space: nowrap;
-    overflow: hidden;
+.wrapper {
+    border-bottom: none;
+    border-radius: 10px;
 }
 
 .main-img p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    animation: digitacao 500ms steps(30) infinite normal, digitando 4s steps(50) 3s normal both;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: digitacao 500ms steps(30) infinite normal, digitando 2s steps(50) 2s normal both;
     width: 100%;
     opacity: 1;
+    border-radius: 10px;
     white-space: nowrap;
     overflow: hidden;
-    color: white;
+    color: #02416b;
     text-align: center;
-    background-color: #333;
+    background-color: rgba(255, 255, 255, 0.6);
     font-weight: bold;
     font-size: 3rem;
 }
 
 @media screen and (max-width:840px) {
     .main-img p {
+        display: flex;
+        align-items: center;
+        height: 50px;
         width: 100%;
-        font-size: 1.2rem;
+        font-size: 1em;
     }
 }
 
