@@ -700,7 +700,10 @@ input:focus {
 }
 
 .img-whats img {
-    width: 100%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 50%;
     opacity: 0.8;
 }
 
